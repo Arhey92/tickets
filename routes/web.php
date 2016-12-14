@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/first-step', 'HomeController@sectors');
+Route::get('/second-step', 'HomeController@places');
